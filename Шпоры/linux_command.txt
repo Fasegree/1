@@ -1,4 +1,5 @@
 linux
+https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192mkdir     
 
 touch /home/.../file.txt
 cp /.../file.txt /.../new_file.txt
