@@ -1,0 +1,16 @@
+linux
+
+touch /home/.../file.txt
+cp /.../file.txt /.../new_file.txt
+cp /.../file.txt /.../../../
+
+mkdir -p /home/user2/task2 create new tree
+
+
+history > history_24.05.txt
+export file history_24_05.txt
+
+mkdir -p /home/user5/task5 touch /home/user5/file5.txt (create 3 directori
+
+&& соединение команд
+mkdir -p /home/user5/task5 && touch /home/user5/file5.txt

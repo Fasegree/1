@@ -1,0 +1,23 @@
+Полезности СSS
+расположение
+
+box-sizing: border-box; 
+	/*высчитываются блоки не учитывая padding.200*200px  Итоговая высота и ширина блока сохраняются*/
+
+width: calc(50% - 20px);
+	/* 100/n = x% где n количество элементов которое нужно в строке, х проценты в calc */
+	
+aspect-ratio: 1; /* Сохранение пропорций*/
+
+margin: auto; /* центрирование блока*/
+
+height: 100vh; /*высота окна браузера */
+margin: 0px 0px 0px 200px;
+
+		display: flex;
+		flex-wrap: nowrap;
+		
+		background-size: cover;
+		
+img несет смысл (карртинка товара)
+background-img просто картинки

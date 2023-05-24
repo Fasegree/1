@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	/*высчитываются блоки не учитывая padding.200*200px  Итоговая высота и ширина блока сохраняются*/
+	}
+	body {
+		background-color: #eee;
+	}
+	header {
+		background-color: #ddd;
+		padding: 20px;
+	}
+h1 {
+	font-size: 48px;
+	text-align: center;
+}
+h1:hover {
+	color: #ff0000;
+	font-size: 38.9px;
+	font-family: cursive;
+}
+
+main {
+	margin: auto; /* центрирование блока*/
+	margin-top: 30px;
+	border-radius: 8px;
+	padding: 30px;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	/* height: 100vh; */
+	background-color: #ddd;
+	box-shadow: 0 0 10px 1px #333;
+}
+	 .item {
+	
+		width: calc(50% - 20px);
+		height: 330px;
+		/* aspect-ratio: 16/9; */
+		/* aspect-ratio: 1; Сохранение пропорций */
+		/* 100/n = x% где n количество элементов которое нужно в строке, х проценты в calc */
+		background-color: #7f1a1a;
+		/* padding: 50px; */
+		margin: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 1s;
+	}
+.item:hover {
+	transform: scale(1.05) rotate(5deg);
+}
+.item-1 {
+	background-image: url(./img/Ergo.webp);
+}
+.item-2 {
+	background-image: url(./img/Hisense.webp);
+}
+.item-3 {
+	background-image: url(./img/Kivi.webp);
+}
+.item-4 {
+	background-image: url(./img/LG.webp);
+}
+.item-5 {
+	background-image: url(./img/Nokia.webp);
+}
+.item-6 {
+	background-image: url(./img/Samsung.webp);
+}
+.item-7 {
+	background-image: url(./img/SETUP.webp);
+}
+.item-8 {
+	background-image: url(./img/Sharp.webp);
+}
+
+	.item1 {
+		 
+		
+		background-color: black;
+		margin: 10px;
+		order: -1;
+	}
+
+	/* p {
+		background-color: aqua;
+		
+	} */
+	
+	/* .item2 {
+		background-color: rgb(180, 108, 1);
+		margin: 0px 0px 0px 200px;
+	}
+	.item3 {
+		background-color: rgb(111, 7, 129);
+		margin: 0px 0px 0px 400px;
+		/* margin-left: 400px; */
+	} */
+	
+	
+	.container {
+		display: flex;
+		flex-wrap: nowrap; /* Отключает перенос элементов на следующую строку */
+	}
+	
+	.item5 {
+		flex: 1; /* Распределение доступного пространства между элементами */
+		min-width: 0; /* Предотвращает переполнение элементов при уменьшении окна */
+		width: 100px;
+		height: 100px; /* Высота квадратов */
+		background-color: #7f1a1a;
+		margin: 5px;
+	}
