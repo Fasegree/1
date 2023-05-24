@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+.container {
+	background-color: #ddd;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.text {
+	width: 40%;
+	background-color: aqua;
+	margin-bottom: 10px;
+}
+a {
+	background-color: #bbb;
+}

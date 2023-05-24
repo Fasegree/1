@@ -1,0 +1,32 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+} 
+.contain {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #0f0;
+	
+}
+.center {
+	justify-content: center;
+}
+.between{
+	justify-content: space-between;
+}
+.rectangle {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: #ff0;
+}
+.procent33 {
+	width: calc(33% - 20px);
+	min-width: 100px;
+	height: 100px;
+	margin: 10px;
+	background-color: #ff0;
+}
