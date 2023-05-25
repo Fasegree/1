@@ -44,6 +44,9 @@ git branch -M main
 git push -u origin main
 */
 
+warning: in the working copy of 'project4HW/css/style.css', LF will be replaced by CRLF the next time Git touches it
+
+git config --global core.autocrlf true
 
 
 Если вы получаете ошибку "non-fast-forward" при выполнении команды git push -u origin main, это означает, что ваш локальный репозиторий отстает от удаленного репозитория на GitHub. Вероятно, в удаленном репозитории были внесены изменения после вашего последнего обновления.

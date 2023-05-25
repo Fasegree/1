@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+} 
+body {
+	background-color: #ddd;
+}
+section {
+	border: 1px solid #333;
+	border-radius: 10px;
+	margin: 32px auto;
+	
+	max-width: 420px; 
+	background-color: #fff;
+
+}
+.cros {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: right;
+}
+.forma {
+	width: 356px;
+	margin: 32px;
+}
+h3 {
+	margin-bottom: 24px;
+	font-family: 'Nunito';
+	font-weight: 800;
+	font-size: 28px;
+}
+.input {
+	display: flex;
+	flex-direction: column;
+}
+.email {
+
+	padding: 7px 16px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	margin-bottom: 8px;
+	transition: 0.2s;
+}
+.email:focus {
+ 
+	border: 2px solid #e3c105;
+	outline: none;
+	caret-color: #ffd900;
+}
+
+
+.paragraph {
+  width: 300px; /*ограничил. Слово Правила */
+	font-family: 'Nunito';
+	font-weight: 400;
+	font-size: 12px;
+	color: #7B8E98;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+.right {
+		font-family: 'Nunito';
+	font-weight: 400;
+	font-size: 12px;
+	color: #7B8E98;
+	margin-bottom: 24px;
+	line-height: 14px;
+
+	text-align: right;
+
+}
+
+.button {
+	display: flex;
+	flex-direction: column;
+
+	margin-top: 24px;
+}
+.btn {
+	width: 356px;
+	height: 48px; 
+	border: 1px solid #CFD8DC;
+	border-radius: 87px;
+	font-family: 'Nunito';
+	font-weight: 700;
+	font-size: 16px;;
+}
+.btn_activ {
+	margin-bottom: 8px;
+	background: #FFE44D;
+	font-family: 'Nunito';
+	font-weight: 700;
+	font-size: 16px;
+
+}
