@@ -1,4 +1,7 @@
 Полезности СSS
+
+Emmet сокращения
+	.item.item-$*8
 расположение
 
 box-sizing: border-box; 
