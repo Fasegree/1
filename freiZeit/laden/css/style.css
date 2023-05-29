@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-family: 'Roboto Mono', monospace;
 }
@@ -7,12 +8,12 @@ body {
 	margin: 0px 166px;
 }
 .header {
-	background-image: url(.https://via.placeholder.com/100*100);
+	background-image: url(../img/bg.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover; 
 	
-	margin-left: 50px;
+
 }
 .header-line {
 	padding-top: 50px; 
@@ -37,7 +38,7 @@ body {
 }
 .cart-img {
 	position: absolute;
-	top: 8px;
+	top: 15px;
 	right: 3px;
 
 }
@@ -45,3 +46,4 @@ body {
 	color: #000;
 	text-decoration: none;
 	font-weight: 700;
+}
