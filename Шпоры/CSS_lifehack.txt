@@ -21,3 +21,26 @@ margin: 0px 0px 0px 200px;
 		
 img несет смысл (карртинка товара)
 background-img просто картинки
+
+
+selector 
+input[type="text"], input[type="email"] {}
+
+! Исключения
+.example {
+  color: red !important;
+}
+
+CHILD
+DIV:ntn-child(n)
+div:not(:last-child)
+div:last-child
+div:first-child
+
+FLEX
+gep: 30px; /*между блоками во флекс отступы*/
+
+Game
+
+flexfroggy
+https://cssgridgarden.com/#ru

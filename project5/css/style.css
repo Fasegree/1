@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.item {
+	width: 200px;
+	height: 200px;
+	background-color: #00f;
+	
+}
+.item-2 {
+	position: absolute;
+	background-color: rgb(208, 208, 6);
+	left: 40px;
+	top: 40px;
+	z-index: -1;
+}
+.item-3 {
+	background-color: #f05;
+}
