@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Inter', sans-serif;
+}
+header {
+
+	/* 1372/1512*100% */
+	background-color: #1ABC9C;
+	padding: 15px 0;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	width: calc(1372 / 1512 * 100%);
+	align-items:center;
+
+
+}
+.nav_link {
+	font-size: 25px;
+	text-decoration: none;
+	color: #000;
+}
+.nav_link:not(:last-child) {
+	margin-right: 20px;
+}
+.social_icon:not(:last-child) {
+	margin-right: 20px;
+}
+
+/* О нас */
+.about {
+	display: flex;
+	align-items: center;
+}
+.about-img {
+	width: 50%;
+}
+.about_info {
+	padding: 0 65px;  
+	/* margin: auto;
+	width: 45%; */
+	/*или в процентах относительно всего єкрана*/
+}
+h1 {
+	font-family: 'Oswald';
+	font-size: 35px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.about-text {
+	font-size: 20px;
+	text-align: justify; /*по ширине*/
+}
+
+/* Наши проекты */
+.projects {
+	background-color: #DCFFEB;
+	padding: 125px 0;
+}
+.projects-wrapper {
+	width: 90%;
+	margin: auto;
+}
+h2 {
+	font-family: 'Oswald';
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+.projects-list {
+	display: flex;
+	gap: 36px
+
+}
+.project {
+	width: 33%;
+	aspect-ratio: 1.15/1; /*436/376   330px-widt*/
+	background-image: url(../img/project__arena.png);
+	background-size: 100%;
+	/* cover по ширине 100%, по вісоте подстраивается
+	contain по высоте 100%, по ширине подстраивается */
+	display: flex;
+	align-items: flex-end;
+}
+.project-hover {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 100%;
+	opacity: 0;
+	padding: 0px 36px;
+	transition: opacity 1s;
+	
+}
+.project-hover:hover {
+	opacity: 1;
+
+}
+h5 {
+
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 24px;
+	color: #fff;
+}
+.project-text {
+	margin: 16px 0;
+	font-size: 16px;
+	color: #fff;
+}
+
+ /* Контакты */
+ footer {
+	margin: 80px 0;
+ }
+ .content {
+	width: 90%;
+	margin: auto;
+ }
+ .contacts {
+	display: flex;
+	justify-content: center;
+	gap: 37px;
+ }
+ .contacts-block {
+	text-align: center;
+ }
+ .contact-text.red {
+	color: #f00;
+ }
+ .contact-gray {
+	margin: 36px 0px 25px;
+	font-weight: 500;
+	font-size: 24px;
+	color: #999999;
+	text-transform: uppercase;
+ }
+
+.contact-text {
+	font-family: 'Oswald';
+	font-weight: 500;
+	font-size: 24px;
+}
