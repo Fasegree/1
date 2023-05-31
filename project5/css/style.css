@@ -3,7 +3,40 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.item {
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #ddd;
+}
+nav {
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	padding: 20px 0;
+}
+a {
+	font-size: 24px;
+	color: #000;
+	text-decoration:none;
+}
+section {
+	height:calc(100vh - 68px) ;
+}
+#red {
+	margin-top: 68px;
+	background-color: #f50;
+}
+#green {
+	background-color: #0f0;
+}
+#yellow {
+	background-color: #ff0;
+}
+#blue {
+	background-color: #00f;
+}
+/* .item {
 	width: 200px;
 	height: 200px;
 	background-color: #00f;
@@ -18,4 +51,4 @@
 }
 .item-3 {
 	background-color: #f05;
-}
+} */
