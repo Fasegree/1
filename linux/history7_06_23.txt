@@ -1,0 +1,16 @@
+   0 vi /tmp/file.txt
+   1 ls -al /tmp
+   2 vi /tmp/file.txt
+   3 ls -al /tmp
+   4 df -h | head -n 3 >> /tmp/file.txt 
+   5 cat /tmp/file.txt 
+   6 ls -al /tmp/
+   7 chmod g+w /tmp/file.txt 
+   8 ls -al /tmp/
+   9 chmod g-r /tmp/file.txt 
+  10 ls -al /tmp/
+  11 chmod u-r,g+r /tmp/file.txt 
+  12 chmod o+x /tmp/file.txt 
+  13 ls -al /tmp/
+  14 export_file history > /home/history7_06_23.txt
+  15 history > /home/history7_06_23.txt
