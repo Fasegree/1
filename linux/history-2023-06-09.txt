@@ -1,0 +1,66 @@
+   0 ls -al /
+   1 evn
+   2 env
+   3 expor
+   4 export
+   5 exho $PATH
+   6 echo $PATH
+   7 vi /root/file1.txt
+   8 cat file1.txt 
+   9 nano file1.txt 
+  10 ls /home/
+  11 ls -al
+  12 cat /etc/group
+  13 ls -al
+  14 adduser user4
+  15 cat /etc/passwd
+  16 ls /home/
+  17 ls -al /
+  18 ls /etc
+  19 cat shadow
+  20 cat /etc/shadow
+  21 mkdir /home/Dir1
+  22 ls -al
+  23 ls -al /home/
+  24 echo "Text Text" >> /home/Dir1/File1.txt
+  25 ls /home/Dir1/
+  26 ls -al /home/Dir1/
+  27 su user4
+  28 chmod o-x /home/Dir1/
+  29 ls -al /home/
+  30 su user4
+  31 chmod o+x /home/Dir1/
+  32 ls -al /home/
+  33 chmod ugo+x /home/file2.txt 
+  34 ls -al /home/
+  35 chmod u-w,g+w,o-x /home/file2.txt 
+  36 ls -al /home/
+  37 su user4
+  38 ls -al
+  39 cd /home/user4/
+  40 ls -al
+  41 cat file3.txt 
+  42 echo "TEXT" >> file3.txt 
+  43 cat file3.txt 
+  44 su user
+  45 su user4
+  46 ls /home/
+  47 ls -al /home/
+  48 chown user4:user4 /home/file2.txt 
+  49 ls -al /home/
+  50 chown root:user4 /home/file2.txt 
+  51 ls -al /home/
+  52 chown root:root /home/file2.txt 
+  53 ls -al /home/
+  54 ls -al /home/Dir1/
+  55 chown -r user4:user4 /home/Dir1/
+  56 chown -R user4:user4 /home/Dir1/
+  57 ls -al /home/Dir1/
+  58 ls -al /home
+  59 chown -R root:user4 /home/Dir1/
+  60 ls -al /home
+  61 ls -al /home/Dir1/
+  62 exit
+  63 cd 
+  64 history
+  65 history > hostory-2023-06-09
