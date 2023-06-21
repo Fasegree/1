@@ -1,0 +1,19 @@
+.text {
+font-size: 24px;
+color: rgb(3, 149, 3);
+}
+.product {
+	width: 20%;
+	background-color: #9fdb7d;
+	padding: 30px;
+	margin: 10px;
+	color: blue;
+	border-bottom:  3px solid #f00;
+}
+h5 {
+	font-style: 28px;
+
+}
+p {
+	font-size: 20px;
+}

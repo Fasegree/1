@@ -1,0 +1,13 @@
+section {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.card {
+	padding: 1% 6%;
+	border-radius: 20px;
+	background-color: #3f2fff;
+	color: #ddd;
+	font-size: 25px;
+}
